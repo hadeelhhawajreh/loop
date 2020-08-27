@@ -17,19 +17,27 @@ while (condition)
   statement
 If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.
  
- # OPERATORS
+ * # Arithmatical Operator
  
- +sign |Operator	Description	
-+	     |Addition
+ |sign |Operator	Description|
+ |-----|----------------------------:|
+ |+	|Addition|
+ |-     |Subtraction|
+ |*     |Multiplication|	
+ |/     |Division|
+ |%     |Modulus (division remainder)|
+ |++    |Increment|
+ |--	|Decrement|	
 
--      |Subtraction
+ * # Comparison Operators
+==,!=,<,>,<>,=,===,!==
 
-*      |Multiplication	
- 
-/      |	Division	
+* # Conditional (Ternary) Operator
 
-%      |	Modulus (division remainder)	
+variablename = (condition) ? value1:value2	
 
-++	   |Increment
-	
---	   |Decrement	
+* # Logical Operators
+! -> not
+&& -> and
+|| -> or
+
